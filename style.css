@@ -21,7 +21,7 @@
   justify-content: center;
 }
 .b{
-    color: black;
+    color: rgb(238, 20, 20);
 }
 .item1{
    grid-column: one-c/three-c;
@@ -69,25 +69,25 @@ background-color: #f23b4d;
 .item1{
 grid-column: one-c/five-c;
 }
-.item3{
-    grid-area:two-r/one-c / span 2 / span 5 ;
-}
 .item2{
     grid-area: four-r/one-c / span 5 / span 1;
+}
+.item3{
+    grid-area:two-r/one-c / span 2 / span 5 ;
 }
 .item4{
     grid-area: four-r/two-c / span 2 / span 5;
 }
-.item7{
-    grid-area: five-r/two-c / span 2 / span 5;
-
+.item5{
+    grid-area:seven-r/four-c;
+    
 }
 .item6{
     grid-area:seven-r/two-c / span 1 / span 2 ;
-
+    
 }
-.item5{
-    grid-area:seven-r/four-c;
+.item7{
+    grid-area: six-r/two-c / span 1/ span 5;
 
 }
 }
